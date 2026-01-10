@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My First Web page</title>
+        <style>
+            img{
+                width: 300px;
+                height: 400px;
+                border: 3px blueviolet solid;
+                border-radius: 30px;
+            }
+            .Bag{
+                border: 3px blueviolet solid;
+                border-radius: 30px;
+                width:350px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                transition: all 0.5s ease-in-out;
+            }
+            .Car{
+                display: flex;
+                justify-content: space-evenly;
+                transition: all 0.5s ease-in-out ;
+                 
+            }
+            .Car:hover .Bag{
+                
+                transform: scale(0.8);
+            }
+            .Car .Bag:hover{
+                transform: scale(0.9) rotate(10deg);
+                background-color: aqua;
+                border-color: black;
+            }
+            header{
+                background-color: dodgerblue;
+                font-size: 70px;
+                text-align: center;
+            }
+            footer{
+                background-color: dodgerblue;
+                font-size: 70px;
+                text-align: center;
+            }
+            a{
+                font-size: 30px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+         <header>
+           THALAPATHY VIJAY 
+         </header>
+            <br><br><br><br><br><br>
+         <div class="Car">
+        <div class="Bag">
+            <h1>MOVIE</h1>
+            <img src="thalapathy3.jpg" alt="main img">
+            <h2>VARISU</h2>
+        </div>
+        <div class="Bag">
+            <h1>MOVIE</h1>
+            <img src="Thalapathy2.jpg" alt="main img">
+            <h2>MASTER</h2>
+        </div>
+        <div class="Bag">
+            <h1>MOVIE</h1>
+            <img src="thalapathy4.jpg" alt="main img">
+            <h2>THERI</h2>
+        </div>
+        <div class="Bag">
+            <h1>MOVIE</h1>
+            <img src="thalapathy5.jpg" alt="main img">
+            <h2>MERSAL</h2>
+        </div>
+        </div>
+        <br><br><br>
+        <a href="https://youtu.be/dRqZCnJu-9Q?si=SRDZ2SVBDm35eq-m">Alapora thamilze</a>
+        <br><br><br><br><br><br>
+        <footer>
+           © My First Web Page
+        </footer>
+    </body>
+</html>
