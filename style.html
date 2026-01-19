@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CSS style </title>
+    <style>
+        body{
+            margin:0%;
+        }
+        .Main{
+            width: 100vw;
+            height:100vh;
+             background-color:rgb(220, 199, 199,0);
+            position: relative; 
+
+        }
+        .Box{
+            width:20vw;
+            height:40vh;
+            border-radius:30px;
+            font-size: 300px;
+            color: white;
+            font-weight: bolder;
+            display: flex;
+            justify-content: center;
+            transition: all 1s ease-in-out;
+        }
+        .Sub1{
+            background-color: red;
+            position:absolute;
+            top:30vh;
+            left:4vw;
+        }
+        .Sub2{
+            background-color: green;
+            position: absolute;
+            top:33vh;
+            left:28vw;
+        }
+        .Sub3{
+            background-color: dodgerblue;
+            position: absolute;
+            top:30vh;
+            right:28vw;
+        }
+        .Sub4{
+            background-color: yellow;
+            position: absolute;
+            top:33vh;
+            right:4vw;
+        }
+        .Sub5 img{
+            width: 250px;
+           
+            
+        }
+        .Sub5{
+            position: fixed;
+            top:5vh;
+        }
+        .Main2{
+            width: 100vw;
+            height: 100vh;
+            background-color: black;
+        }
+        .Main:hover .Sub1{
+            background-color:rgb(220, 199, 199,0);
+            border: 15px solid red;
+            color:red;
+            transform: rotate(-10deg);
+            left: 8vw;
+        }
+        .Main:hover .Sub2{
+            background-color:rgb(220, 199, 199,0);
+            border: 15px solid green;
+            color:green;
+            transform: rotate(10deg);
+            
+        }
+        .Main:hover .Sub3{
+            background-color:rgb(220, 199, 199,0);
+            border: 15px solid dodgerblue;
+            color:dodgerblue;
+            transform: rotate(-10deg);
+            right: 32vw;
+            
+        }
+        .Main:hover .Sub4{
+            background-color:rgb(220, 199, 199,0);
+            border: 15px solid yellow;
+            color:yellow;
+            transform: rotate(10deg);
+            right:12vw;
+           
+        }
+    </style>
+</head>
+<body>
+    <div class="Main">
+        <div class="Box Sub1">
+            Z
+
+        </div>
+        <div class="Box Sub2">
+            O
+
+        </div>
+        <div class="Box Sub3">
+            H
+        </div>
+        <div class="Box Sub4">
+            O
+        </div>
+        <div class="Sub5">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsy5z_xdAg28SwbkWx2rkcppOSRkBNige6Iw&s" alt="Main Img">
+        </div>
+        
+    </div>
+    <div class="Main2">
+        
+    </div>
+   
+
+        
+</body>
+</html>
